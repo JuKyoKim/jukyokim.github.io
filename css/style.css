@@ -7,10 +7,22 @@ src: url("../assets/archive/Archive.otf") format("opentype");
 
 body{
 	font-family: "archive";
+	background-image: url("../assets/piq_153100.png");
+	height: 100%;
+	/*add margin to the left and right side*/
 }
+
+#outer_shell_container{
+	background-color: white;
+	margin-left: 13%;
+	margin-right: 13%;
+	height: 100%;
+}
+
+
 header{
 	height: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 75px;
 }
 
 #brand_logo{
@@ -23,7 +35,7 @@ header{
 	margin-top: 30px;
 }
 
-li{
+.top_list_items{
 	text-align: center;
 	display: inline;
 	margin-right: 20px;
