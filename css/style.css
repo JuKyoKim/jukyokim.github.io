@@ -1,3 +1,36 @@
-h1{
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
 	font-family: futura;
+	height:100%;
+	width: 100%;
+	padding:0;
+	margin:0 auto;
+}
+
+#main_overlay{
+	min-height:100%;
+	min-width: 100%;
+	background-color: black;
+	margin: 0 auto;
+}
+
+/*icon will always be 200px so negetive half 
+for margin and set it to top and left 50*/
+#icon{
+	width: 200px;
+	height: 200px;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+}
+
+#header{
+	height: 10%;
+	width: 100%;
+	background-color: black;
 }
