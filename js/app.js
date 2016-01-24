@@ -1,9 +1,11 @@
 $(document).ready(function(){
+	//hides the main page so it can be toggles back on later
+	$("#main_page").toggle();
+
 	//on click of the overlay make it disappear!!
-	$("#main_overlay").on("click",function(){
+	$("#main_overlay").one("click",function(){
 		removeOverlay();
 	});
-
 
 });
 
@@ -12,12 +14,10 @@ function removeOverlay(){
 	//after 1 sec delay remove the div
 	setTimeout(function(){
 		$("#main_overlay").remove();
-		createPage();
+		renderPage();
 	}, 1000);
 }
 
-function createPage(){
-	var newDiv = $("<div>");
-	newDiv.attr({"class":"animated fadeIn","id":"header"})
-	$("body").append(newDiv);
-}
+function renderPage(){
+	$("#main_page").toggle();
+};

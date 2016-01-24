@@ -1,12 +1,11 @@
 html{
+	font-family: futura;
 	height: 100%;
 	width: 100%;
 }
 
 body{
-	font-family: futura;
 	height:100%;
-	width: 100%;
 	padding:0;
 	margin:0 auto;
 }
@@ -18,19 +17,45 @@ body{
 	margin: 0 auto;
 }
 
-/*icon will always be 200px so negetive half 
-for margin and set it to top and left 50*/
+/* icon will always be 200px so negetive half 
+for margin and set it to top and left 50 */
 #icon{
-	width: 200px;
-	height: 200px;
-	margin: -100px 0 0 -100px;
+	width: 12.5em;
+	height: 12.5em;
+	margin: -6.25em 0 0 -6.25em;
 	position: absolute;
 	top: 50%;
 	left:50%;
 }
+/* css specifically for the main overlay */
+
+/* css for the main page */
+#main_page{
+	background-color: black;
+	color: white;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+}
+
+.text_center{
+	text-align: center;
+}
 
 #header{
-	height: 10%;
+	margin: 0 auto;
+	background-color: white;
+	color: black;
+	height: 16%;
 	width: 100%;
-	background-color: black;
+	position: absolute;
+	top: 0;
 }
+
+#name{
+	line-height: 100%;
+	font-size: 2em;
+}
+
