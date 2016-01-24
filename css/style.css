@@ -51,17 +51,15 @@ for margin and set it to top and left 50 */
 }
 
 #name{
-	line-height: 100%;
 	font-size: 32px;
 	margin: 0 auto;
 	padding: 32px 0 32px 0;
 }
 
 #summary_container{
-	height: 100%;
+	height: 120%;
 	width: 100%;
 	display: block;
-	position: relative;
 }
 
 /* background image opacity with it not repeating with psuedo element */
@@ -93,10 +91,14 @@ for margin and set it to top and left 50 */
 }
 
 #more_button{
+	display: block;
+	margin: 0 auto 0 auto;
 	height: 40px;
 	width: 80px;
 	background-color: white;
-	margin-bottom: 200px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
 }
 
 
@@ -110,7 +112,7 @@ for margin and set it to top and left 50 */
 	margin: 0 auto;
 }
 
-#social_links{
+/*#social_links{
 	height: 140px;
 	width: 100%;
 	margin: 0 auto;
@@ -133,6 +135,6 @@ for margin and set it to top and left 50 */
 	background-image: url("../assets/linkedinLogo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+}*/
 
 
