@@ -27,9 +27,10 @@ for margin and set it to top and left 50 */
 	top: 50%;
 	left:50%;
 }
-/* css specifically for the main overlay */
 
-/* css for the main page */
+/* above is css specifically for the main overlay */
+/* below is css specifically for the page after */
+
 #main_page{
 	background-color: black;
 	color: white;
@@ -49,8 +50,6 @@ for margin and set it to top and left 50 */
 	width: 100%;
 }
 
-/* Applied the same technique i did 
-with my logo but to my name as well */
 #name{
 	line-height: 100%;
 	font-size: 32px;
@@ -58,17 +57,53 @@ with my logo but to my name as well */
 	padding: 32px 0 32px 0;
 }
 
+#summary_container{
+	height: 70%;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+/* background image opacity with it not repeating with psuedo element */
+
+#summary_container::after{
+	content: "";
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	background-image: url("../assets/codeSnippet.png");
+	background-repeat: no-repeat;
+	background-size: cover;  
+	opacity: 0.4;
+}
+
 #summary{
 	font-size: 32px;
 	width: 50%;
 	margin: 0 auto;
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
+#description{
+	margin: 0 auto;
+	padding-bottom: 50px;
+	background-color: blue;
+}
 
+#buffer{
+	background-color: green;
+}
 
+#social_links{
+	background-color: red;
+}
 
-
+.logo{
+	margin: 0 auto;
+}
 
 
 
