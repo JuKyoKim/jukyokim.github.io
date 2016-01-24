@@ -58,7 +58,7 @@ for margin and set it to top and left 50 */
 }
 
 #summary_container{
-	height: 70%;
+	height: 100%;
 	width: 100%;
 	display: block;
 	position: relative;
@@ -82,29 +82,57 @@ for margin and set it to top and left 50 */
 
 #summary{
 	font-size: 32px;
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
-	padding: 50px 0 50px 0;
+	padding-top: 270px;
 }
 
 #description{
+	width: 50%;
 	margin: 0 auto;
-	padding-bottom: 50px;
-	background-color: blue;
 }
 
+#more_button{
+	height: 40px;
+	width: 80px;
+	background-color: white;
+	margin-bottom: 200px;
+}
+
+
+
+
+
+
+
 #buffer{
-	background-color: green;
+	width: 50%;
+	margin: 0 auto;
 }
 
 #social_links{
-	background-color: red;
-}
-
-.logo{
+	height: 140px;
+	width: 100%;
 	margin: 0 auto;
+	text-align: center;
 }
 
+.logos{
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+}
 
+#github{
+	background-image: url("../assets/githubLogo.png");
+	background-repeat: no-repeat;
+	padding-right: 50px;
+}
+
+#linkedin{
+	background-image: url("../assets/linkedinLogo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 
