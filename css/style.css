@@ -20,9 +20,9 @@ body{
 /* icon will always be 200px so negetive half 
 for margin and set it to top and left 50 */
 #icon{
-	width: 12.5em;
-	height: 12.5em;
-	margin: -6.25em 0 0 -6.25em;
+	width: 300px;
+	height: 300px;
+	margin: -150px 0 0 -150px;
 	position: absolute;
 	top: 50%;
 	left:50%;
@@ -36,8 +36,6 @@ for margin and set it to top and left 50 */
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	position: absolute;
-	top: 0;
 }
 
 .text_center{
@@ -48,14 +46,30 @@ for margin and set it to top and left 50 */
 	margin: 0 auto;
 	background-color: white;
 	color: black;
-	height: 16%;
 	width: 100%;
-	position: absolute;
-	top: 0;
 }
 
+/* Applied the same technique i did 
+with my logo but to my name as well */
 #name{
 	line-height: 100%;
-	font-size: 2em;
+	font-size: 32px;
+	margin: 0 auto;
+	padding: 32px 0 32px 0;
 }
+
+#summary{
+	font-size: 32px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 100px 0 100px 0;
+}
+
+
+
+
+
+
+
+
 
