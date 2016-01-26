@@ -17,8 +17,7 @@ body{
 	margin: 0 auto;
 }
 
-/* icon will always be 200px so negetive half 
-for margin and set it to top and left 50 */
+/*centering my logo to center of overlay*/
 #icon{
 	width: 300px;
 	height: 300px;
@@ -29,5 +28,39 @@ for margin and set it to top and left 50 */
 }
 
 /* above is css specifically for the main overlay */
-/* below is css specifically for the page after */
 
+/*setting width to 100% against everything*/
+#main_page, #header, #intro, #project_container, #footer{
+	width: 100%;
+}
+
+/*setting flex to work vertically*/
+#main_page{
+	display: flex;
+	flex-direction: column;
+	height: 2000px;
+}
+
+#header{
+	height: 3%;
+	background-color: red;
+	order: 1;	
+}
+
+#intro{
+	height: 47%;
+	background-color: blue;
+	order: 2;
+}
+
+#project_container{
+	height: 47%;
+	background-color: teal;
+	order: 3;
+}
+
+#footer{
+	height: 3%;
+	background-color: green;
+	order: 4;
+}
