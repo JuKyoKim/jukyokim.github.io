@@ -66,9 +66,13 @@ a{
 	flex: 1;
 }
 
+/* Above is css for just the main nav */
+
 #intro{
 	height: 35%;
 	order: 2;
+	display: inherit;
+	justify-content: flex-end;
 }
 
 /* background image through a pseudo element + z index */
@@ -84,18 +88,50 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
     background-image: url("../assets/codeSnippet.png");
+	z-index: -2;
+	padding-bottom: 900px;
+}
+
+#fade{
+	height: 100%;
+	width: 38%;
+}
+
+#fade::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 60%;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.5;
 	z-index: -1;
 	padding-bottom: 900px;
 }
 
 #intro_container{
-	width: 50%;
-	margin: 200px auto 100px auto;
+	height: 100%;
+	width: 100%;
+	padding-top: 100px;
+	text-align: center;
+}
+
+#myPic{
+	width: 25%;
+	border-radius: 100px;
+	border: 5px solid white;
+	margin-bottom: 50px;
 }
 
 .text{
-	font-size: 32px;
+	font-size: 22px;
 	text-align: center;
+}
+
+#short_summary{
+	margin: 0 auto;
 }
 
 #more_button{
@@ -107,8 +143,10 @@ a{
 	line-height: 40px;
 	text-align: center;
 	text-transform: uppercase;
-	margin: 0 auto;
+	margin: 50px auto 0 auto;
 }
+
+/* above is css for the intro */
 
 #showcase{
 	height: 59%;
@@ -118,7 +156,7 @@ a{
 
 #showcase_header{
 	width: 50%;
-	margin: 80px auto 100px auto;
+	margin: 80px auto 80px auto;
 }
 
 #showcase_container{
@@ -127,12 +165,19 @@ a{
 }
 
 .project_container{
-	background-color: red;
+	display: inherit;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+	background-color: #58d6ef;
 	width: 28%;
 	margin: 0 auto;
 }
 
-
+.project_container img{
+	width: 100%;
+	height: 80%;
+	margin: 0 auto;
+}
 
 
 
