@@ -62,9 +62,26 @@ a{
 }
 
 #intro{
-	height: 42%;
-	background-color: black;
+	height: 35%;
 	order: 2;
+}
+
+/* background image through a pseudo element + z index */
+#intro::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url("../assets/codeSnippet.png");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	opacity: 0.8;
+	padding-bottom: 900px;
 }
 
 #intro_container{
@@ -89,7 +106,7 @@ a{
 }
 
 #project{
-	height: 52%;
+	height: 59%;
 	background-color: teal;
 	order: 3;
 }
