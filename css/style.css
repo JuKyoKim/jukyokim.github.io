@@ -87,7 +87,7 @@ a{
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-image: url("../assets/codeSnippet.png");
+    background-image: url("../assets/gallery/codeSnippet.png");
 	z-index: -2;
 	padding-bottom: 900px;
 }
@@ -210,7 +210,11 @@ hr{
 	background-color: #66d9ef;
 }
 
-
+#contact{
+	width: 86.66578171%;
+	margin: 100px auto 100px auto;
+	background-color: blue;
+}
 
 
 
@@ -219,7 +223,12 @@ hr{
 
 #footer{
 	height: 2%;
-	background-color: green;
+	background-color: black;
 	order: 4;
 	line-height: 100%;
+}
+
+#footer a p{
+	color: white;
+	margin:0 0 0 20px;
 }
