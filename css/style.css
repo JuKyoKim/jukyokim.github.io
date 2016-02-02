@@ -63,7 +63,9 @@ a{
 }
 
 .nav_link{
-	flex: 1;
+	flex: .5;
+	text-align: center;
+	margin:auto 20px auto 20px;
 }
 
 /* Above is css for just the main nav */
