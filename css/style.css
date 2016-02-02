@@ -177,8 +177,37 @@ hr{
 	width: 23.07609833%;
 }
 
-#project_container h3{
-	background-color: white;
+#project_container h1 a{
+	color: white;
+}
+
+#project_container div{
+	height: 200px;
+}
+
+#project_container a div{
+	color: white;
+	text-align: center;
+}
+
+.list_item{
+	margin-top: 30px;
+}
+
+.list_item h2, .list_item p{
+	margin: 0 auto;
+}
+
+#red{
+	background-color: #ec2672;
+}
+
+#green{
+	background-color: #9ce22e;
+}
+
+#blue{
+	background-color: #66d9ef;
 }
 
 

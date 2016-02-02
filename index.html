@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<a name="top"></a>
 <head>
 	<meta charset="UTF-8">
 	<title>Welcome to Tom's mind!</title>
@@ -25,15 +26,11 @@
 			</h1>
 
 			<h1 class="nav_link">
-				<a href="#">Projects</a>
+				<a href="#summary">Background</a>
 			</h1>
 
 			<h1 class="nav_link">
-				<a href="#">Resume</a>
-			</h1>
-
-			<h1 class="nav_link">
-				<a href="#">Contact me</a>
+				<a href="#contact">Contact</a>
 			</h1>
 		</header>
 
@@ -48,7 +45,7 @@
 					</h3>
 						
 					<div id="more_button">
-						<a href="#">more</a>
+						<a href="#summary">more</a>
 					</div>
 				</div>
 			</div>
@@ -58,38 +55,39 @@
 			<div id="bio">
 				<div id="summary_container">
 					<div id="summary">
+						<a name="summary"></a>
 						<h1>Short Background</h1>
 
-						<p>my QA journey</p>
+						<p>My QA Journey</p>
 
 						<ul>
-							<li>
-								<h3>2012</h3>
+							<li class="list_item">
+								<h2>2012</h2>
 								<p>Attended NPower TSC and got my Comp TIA A+ certification</p>
 							</li>
 
-							<li>
-								<h3>2013</h3>
+							<li class="list_item">
+								<h2>2013</h2>
 								<p>Attended Year Up New York QA Track and began my journey as a QA padawan</p>
 							</li>
 
-							<li>
-								<h3>2014</h3>
+							<li class="list_item">
+								<h2>2014</h2>
 								<p>Interned at Nickelodeon as a QA Analyst worked on the Nick Web Redesign Tech team. After 6 months they converted me from intern to full time contractor.Reached QA knight status</p>
 							</li>
 
-							<li>
-								<h3>2015</h3>
+							<li class="list_item">
+								<h2>2015</h2>
 								<p>QA Analyst at Major League Baseball Advanced Media. Worked under Baseball Native apps QA Team</p>
 							</li>
 
-							<li>
-								<h3>2015</h3>
+							<li class="list_item">
+								<h2>2015</h2>
 								<p>Attended General Assembly WDI course under the Opportunity Fund. You can check out some of my project on the left side of the page</p>
 							</li>
 
-							<li>
-								<h3>Current</h3>
+							<li class="list_item">
+								<h2>Current</h2>
 								<p>going through onboarding process for QA Analyst position at Nickelodeon</p>
 							</li>
 						</ul>
@@ -101,21 +99,41 @@
 				<div id="project_container">
 					<h1>Projects</h1>
 
-					<h3>
-						<a href="#">Spooder Dead Lonks</a>
-					</h3>
-					<h3>
-						<a href="#">Bork Visual</a>
-					</h3>
-					<h3>
-						<a href="#">Carl Bot</a>
-					</h3>
+					<a href="#">
+						<div id="red">
+							<h3>Spooder Dead Lonks</h3>
+							<img src="assets/spider.png">
+						</div>
+					</a>
+
+					<a href="#">
+						<div id="green">
+							<h3>Bork Visual</h3>
+							<img src="assets/mag.png">
+						</div>
+					</a>
+
+					<a href="#">
+						<div id="blue">
+							<h3>Carl Bot</h3>
+							<img src="assets/carl.png">
+						</div>
+					</a>
 				</div>
+			</div>
+
+			<div id="contact">
+				<a href="">github</a>
+				<a href="">linkedin</a>
+				<a href="">resume</a>
+				<a href="">phone</a>
 			</div>
 		</div>
 
 		<footer id="footer">
-			<p>phone number: 123-123-1234</p>
+			<a href="#top">
+				<p>to the top</p>
+			</a>
 		</footer>
 		
 
@@ -123,7 +141,8 @@
 
 	<!-- scripts loaded at the bottom -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

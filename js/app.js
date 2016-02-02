@@ -7,6 +7,11 @@ $(document).ready(function(){
 		removeOverlay();
 	});
 
+	$("#footer").localScroll({duration:800});
+
+	$("#header").localScroll({duration:800});
+
+	$("#more_button").localScroll({duration:800});
 });
 
 function removeOverlay(){
