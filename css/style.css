@@ -185,7 +185,7 @@ hr{
 	height: 200px;
 }
 
-#project_container a div{
+#project_container a div, .contact_icons div h3{
 	color: white;
 	text-align: center;
 }
@@ -213,7 +213,6 @@ hr{
 #contact{
 	width: 86.66578171%;
 	margin: 100px auto 100px auto;
-	background-color: blue;
 }
 
 #icon_container{
@@ -223,14 +222,24 @@ hr{
 
 #contact h1{
 	text-align: center;
+	margin: 90px auto 100px auto;
+	width: 50%;
 }
 
 .contact_icons{
 	width: 20%;
+	margin: 0 auto;
 }
 
+.contact_icons div{
+	display: flex;
+	flex-direction: column;
+}
 
-
+.contact_icons div img{
+	width: 128px;
+	margin: 0 auto;
+}
 
 #footer{
 	height: 2%;
